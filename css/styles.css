@@ -700,4 +700,12 @@ img {
 
   background-color: var(--current-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: fill 250ms var(--transition),
+    background-color 250ms var(--transition);
+}
+
+.close-cross:is(:hover, :focus) {
+  fill: var(--white-color);
+  background-color: var(--hover-button);
 }
