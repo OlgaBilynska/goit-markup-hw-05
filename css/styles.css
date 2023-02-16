@@ -578,7 +578,7 @@ img {
   border: 1px solid var(--helper-text);
   border-radius: 4px;
   padding: 16px 32px;
-  transition: border 2500ms var(--transition);
+  transition: border-color 250ms var(--transition);
 }
 
 .customer-block {
@@ -588,11 +588,11 @@ img {
 
 .customer-item {
   fill: var(--helper-text);
-  transition: fill 2500ms var(--transition);
+  transition: fill 250ms var(--transition);
 }
 
 .customer-link:is(:hover, :focus) {
-  border: var(--hover-button);
+  border-color: var(--hover-button);
 }
 
 .customer-link:is(:hover, :focus) .customer-item {
