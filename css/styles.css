@@ -185,7 +185,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
-  border: none;
   transition: background-color 250ms var(--transition),
     color 250ms var(--transition);
 }
