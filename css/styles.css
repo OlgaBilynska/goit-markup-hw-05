@@ -221,7 +221,7 @@ header {
   transition: transform 250ms var(--transition);
 }
 
-.portfolio-item:is(:hover, :focus) .portfolio-overlay {
+.portfolio-item-list:is(:hover, :focus) .portfolio-overlay {
   transform: translateY(-100%);
 }
 
